@@ -1,0 +1,199 @@
+/* Import Modern Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.step-container button {
+  padding: 10px 18px;  /* Bigger padding for Get Started button */
+  font-size: 1.25rem; /* Larger font size for emphasis */
+  font-weight: 500;
+  background-color: #4965e1;  /* Darker blue for emphasis */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(25, 118, 210, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.step-container button:hover {
+  background-color: #121e5bd7;
+  transform: translateY(-2px);
+}
+
+.centered-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.step-container {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 15px 40px rgb(27, 42, 52);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1, h2 {
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+input, select {
+  width: 80%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
+  outline: none;
+}
+
+.avatar-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 20px;
+}
+
+.avatar-card {
+  padding: 25px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.avatar-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(24, 55, 189, 0.544);
+}
+
+.avatar-card.selected {
+  border-color: #667eea;
+  background-color: #f0f4ff;
+}
+
+.badge {
+  display: block;
+  margin-top: 10px;
+  background-color: #667eea;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.button-row button {
+  padding: 10px 18px; 
+  font-weight: 500;
+  background-color: #4965e1;  /* Professional blue background */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(25, 118, 210, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.button-row button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(25, 118, 210, 0.3);
+}
+
+.button-row button:disabled {
+  background-color: #cfd8dc;
+  color: #757575;
+  cursor: not-allowed;
+}
+
+.summary-card {
+  background-color: #f5f7ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.summary-card p {
+  font-size: 1.05rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.summary-card strong {
+  color: #457db5;
+}
+
+.reset-button {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #182d8c;   /* red */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  
+}
+
+.reset-button:hover {
+  box-shadow: 0 6px 15px rgba(15, 50, 85, 0.3);
+  background-color: #121e5bd7  
+}
+
+.reset-container {
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+}
+
+
+
+.stats-placeholder {
+  background: #f5f7ff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(102, 126, 234, 0.1);
+  font-size: 1.2rem;
+  color: #555;
+}
+
