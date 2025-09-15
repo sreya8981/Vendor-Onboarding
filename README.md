@@ -38,7 +38,7 @@ Make sure you have the following installed:
 
 1. **Clone or extract** the project:
    
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/sreya8981/Vendor-Onboarding.git 
 
 2. Navigate to the project folder:
        cd vendor-onboarding-app
