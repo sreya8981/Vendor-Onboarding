@@ -34,6 +34,10 @@ Make sure you have the following installed:
 
 ---
 
+## Live Demo
+
+Check out the live demo of the app here: [https://vendor-onboarding-gamification.netlify.app/]
+
 ## Installation & Setup
 
 1. **Clone or extract** the project:
