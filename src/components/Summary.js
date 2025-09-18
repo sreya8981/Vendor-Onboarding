@@ -18,7 +18,7 @@ function Summary({ nextStep, prevStep, data }) {
       {/* Summary card with all entered details */}
       <div className="summary-card">
         <p><strong>Avatar:</strong> {data.avatar}</p>
-        <p><strong>Business Email:</strong> {data.email}</p>
+        <p><strong>Business Email:</strong> {data.businessEmail}</p>
         <p><strong>Employees:</strong> {data.employees}</p>
         <p><strong>Transaction Volume:</strong> {data.transaction}</p>
         <p><strong>Area of Interest:</strong> {data.interest}</p>
